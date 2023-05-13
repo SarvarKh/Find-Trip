@@ -2,27 +2,64 @@
 
 Capstone Project at Epam UpSkill - Sarvar Khalimov
 
-1. What web app would it be?
-2. Who is this project for?
-3. What needs will it satisfy?
+## FindTrip - Project by Sarvar Khalimov (Analysis and Design)
+What web app would it be? App to find suitable tours based on destination, duration, and price.
+Who is this project for? People who are willing to travel.
+What needs will it satisfy? It will help travelers save time and money: clients can use “FindTrip” instead of visiting tour agencies' offices. The platform will then find the best matching offers of agencies and show them to travelers. Clients can compare and decide which tour agency to approach while saving time.
 
-Ideas for the web app project
+### Step #1 - (Functional) Requirements.
+The system must:
+Allow travelers to find tours based on the destination, duration, and budget.
+Allow travelers to see available tours (around 10) on the home page with an agency rating.
+Allow travelers to order tours.
+Allow travelers to rate tour agencies.
+Allow travelers to see their order page.
+*2nd part to implement later as the project progresses:
+Allow travelers to signup and log in. Allow agencies to signup and login. Allow agencies to add tours: destination, duration, price, (*photo/video via hyperlinks to youtube). Allow an agency to edit or delete tours
+Non-functional Requirements:
+credible orders, users, and touristic agencies.
+available 24/7
 
-## Traveler
-1. Traveler’s app to find suitable tours based on price, duration,
-2. Potential clients who are willing to travel abroad.
-3. It will help clients to save time and money: instead of visiting traveling agencies' offices to check their possible offers or by visiting each of their websites/social media channels, clients can use a single platform and set destination, budget, and duration. The platform will then find the best matching offers of agencies and show them to platform users.
+### Step #2 - Descriptions.
+Use case No.1
+Title: Order optimal tour
+Primary Actor: Traveler
+Success scenario: Traveler visits the “FindTrip” website. On the home page, travelers can see around 10 tours. Then, the traveler enters the tour destination, duration, and budget. Platforms searches and provides available options from tour agencies. Traveler selects the most suitable tour and orders it. Order will appear traveler’s bag.
+Use case No.2
+Title: Rate tour agency
+Primary Actor: Traveler
+Success scenario: Traveler visits the “FindTrip”. Then, the traveler enters the tour destination, duration, and budget. Platforms searches and provides available options from tour agencies. Traveler selects the most suitable tour and orders it. Rate agencies. Rate of agency changes.
 
+*2nd part to implement later as the project progresses:
+Use cases to implement later: Traveler signup and login, Agency signup and login, Agency adding tour, Agency editing or deleting tour.
 
-## YourDelivery
-1. YourDelivery app is online food / pharmacy delivery ordering service for your destination
-2. For people who are not willing to waste their time bring those items by themselves or don’t have time to do so.
-3. It will help clients to save time and money: instead of visiting groceries or pharmacies, clients can use a single platform and set a destination and order food/drugs. The platform or delivery man can charge customers once they confirm that received their order. Not all pharmacies or markets possess websites/social media channels to receive order and deliver items.
+### Step #3 - Identifying objects (conceptual model).
+Objects as nouns: Traveler, FindTrip” website, home page, tours, destination, duration, budget. Platforms, options, tour agencies, order, bag.
 
+### Step #4 - Interactions between objects (write down nouns from step #3 around circle and connect objects with each other if they have direct relationships. Finally, we mark these connections with verbs):
 
-## SafePayment
-1. SafePayment app is 3rd party payment system that holds the payment of customers until they confirm that they confirm that their order was completed.
-2. Online shops or any other system that provides services online.
-3. It will help companies to be more reliable to attract more customers by providing safe payment methods: customer orders some service, and makes payment: the amount will be transferred to the SafePayment system and will be held there until the customer confirms that their order was completed successfully.
+<div align="center">
+  <img src="image/Interactions.png?raw=true" width="100%" height="auto"/>
+</div>
 
+### Step #5 - Create class diagram. This step comprises a few sub-steps: Identifying class responsibilities, CRC cards, and creating a class diagram itself.
+
+1. Identifiying class responsibilities
+- see around 10 tours
+- enters/selects the tour destination, duration, and budget
+- searches and provides available options from tour agencies
+- selects the most suitable tour and orders it
+- order will appear traveler’s bag.
+
+2. CRC cards: Class, Responsibility, Collaboration
+
+<div align="center">
+  <img src="image/crc_card.png?raw=true" width="100%" height="auto"/>
+</div>
+
+3. Creating class diagram: attributes and behaviors
+
+<div align="center">
+  <img src="image/class_diagram.png?raw=true" width="100%" height="auto"/>
+</div>
 
