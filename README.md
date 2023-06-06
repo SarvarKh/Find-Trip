@@ -3,9 +3,9 @@
 Capstone Project at Epam UpSkill - Sarvar Khalimov
 
 ## FindTrip - Project by Sarvar Khalimov (Analysis and Design)
-What web app would it be? App to find suitable tours based on destination, duration, and price.
-Who is this project for? People who are willing to travel.
-What needs will it satisfy? It will help travelers save time and money: clients can use “FindTrip” instead of visiting tour agencies' offices. The platform will then find the best matching offers of agencies and show them to travelers. Clients can compare and decide which tour agency to approach while saving time.
+- What web app would it be? App to find suitable tours based on destination, duration, and price.
+- Who is this project for? People who are willing to travel.
+- What needs will it satisfy? It will help travelers save time and money: clients can use “FindTrip” instead of visiting tour agencies' offices. The platform will then find the best matching offers of agencies and show them to travelers. Clients can compare and decide which tour agency to approach while saving time.
 
 ### Step #1 - (Functional) Requirements.
 The system must:
